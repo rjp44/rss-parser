@@ -14,7 +14,10 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.js$/,
-      loader: 'babel-loader?presets[]=env',
+      loader: 'babel-loader',
+      options: {
+        presets: [['env', {forceAllTransforms: true}]]
+      }
     }]
   },
   node: {
