@@ -1,7 +1,7 @@
 {
   "name": "rss-parser",
   "version": "3.5.2",
-  "main": "index.js",
+  "main": "dist/rss-parser.js",
   "types": "index.d.ts",
   "scripts": {
     "test": "mocha --exit",
